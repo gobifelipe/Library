@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+</head>
+<body>
+    <h1>Cadastro de Alunos da Biblioteca</h1>
+    <br>
+    <form method="post" action="verifica.php">
+        <pre>  
+        Insira as informações para efetuar o cadastro e dados adicionais.
+
+        Nome:           <input type="text"  size="35" maxlength="50"    name="nome"><br>
+        CPF:            <input type="text"  size="35" maxlength="14"    name="CPF"><br>
+        Curso/Serie:    <input type="text"  size="35" maxlength="40"    name="Curso"><br>    
+        Horário:        <input type="text"  size="35" maxlength="15"    name="Horário"><br>
+        E-mail          <input type="text"  size="35" maxlength="30"    name="E-mail"><br>
+        
+            Dados adicionais:
+
+            <textarea name="dados_adicionais" cols="42" rows="5"></textarea>
+
+            <input type="submit" value="Efetuar Cadastro" name="enviar"> <input type="reset" value="Limpar Dados">
+           
+            
+
+        </pre>
+        </form>
+</body>
+</html>
